@@ -8,40 +8,44 @@
 <img src="https://github.com/oceanpad/IonicApp/blob/master/assets/me_4.PNG" width="200">
 
 
-### Requirments
+## Requirments
 * node
 * npm
 * cordova
 * ionic
 
-### Install node and npm
+## Install node and npm
 [https://nodejs.org/en/](https://nodejs.org/en/)
 
-### Clone project to local
+## Clone project to local
 ```
 git clone git@github.com:oceanpad/IonicApp.git
 ```
 
-### Install Ionic and Cordova global
+## Install Ionic and Cordova global
 ```
 sudo npm install -g cordova ionic
 ```
 
-### Install dependecies. Go to project root directory and run :
+## Install dependecies. Go to project root directory and run :
 ```
 npm install
 ```
 
-### Start serve on computer
+## Start serve on computer
 ```
 ionic serve
 ```
 
-### Build ios project
+## Build ios project
 ```
 ionic build ios
 ```
 
-### Install project to iphone
+## Install project to iphone
 Use Xcode to Open ./platforms/ios/IonicApp.xcodeproj.
 Setup Xcode develop environment and install app to connected ios device.
+
+## License
+
+The IonicApp is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
